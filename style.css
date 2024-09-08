@@ -35,22 +35,61 @@ body{
    font-size: 16px;
 }
 
-#outPut{
+.outPut{
    margin-top: 30px;
+   /* background-color: tomato; */
    display: flex;
-   align-items: center;
-   justify-content: center;
+   flex-direction: column;
+
 }
 
-#Char{
-   background-color: yellow;
-   margin-left: 10px;
-   padding: 10px;
-   border: 2px solid brown;
-   border-radius: 5px;
-   width: 50px;
-}
 
 #outPutBox{
    background-color: violet;
 }
+.temp{
+   display: flex;
+}
+
+
+
+@media (max-width: 350px){
+   h1{
+      font-weight: 50px;
+      /* font-size: small; */
+     
+   }
+   H2{
+      font-size: 18px;
+   }
+   #userInput{
+      width: 250px;
+      height: 100px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: none;
+      font-size: 16px;
+   }
+}
+
+@media (min-width: 350px) and (max-width:650px ) {
+   H2{
+      font-size: 18px;
+   }
+   h1{
+      font-weight: 80px;
+      /* font-size: small; */
+     
+   }
+   #userInput{
+      width: 300px;
+      height: 150px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: none;
+      font-size: 16px;
+   }
+ }
+ 
