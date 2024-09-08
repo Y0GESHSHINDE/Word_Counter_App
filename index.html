@@ -12,16 +12,19 @@
 
    <div class="box">
       <h1>Word Counter</h1>
-      <textarea name="text" id="userInput" oninput="CharCount()"  placeholder="Enter your text  "></textarea>
+      <textarea name="text" id="userInput" oninput="CharCount()" placeholder="Enter your text  "></textarea>
+      <div class="reset">
+         <button type="button" id="Clear_Text" onclick="clearText()">Clear Text</button>
+      </div>
       <div class="outPut">
          <span>
-            <H2>Total Characters :- <span id="Char" ></span></H2>
+            <H2>Total Characters :- <span id="Char"></span></H2>
          </span>
          <span>
-            <H2>Total Words :- <span id="Words" ></span></H2>
+            <H2>Total Words :- <span id="Words"></span></H2>
          </span>
          <span>
-            <H2>Total Numbers :- <span id="Number" ></span></H2>
+            <H2>Total Numbers :- <span id="Number"></span></H2>
          </span>
       </div>
    </div>

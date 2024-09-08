@@ -36,22 +36,21 @@ body{
 }
 
 .outPut{
-   margin-top: 30px;
+   margin-top: 10px;
    /* background-color: tomato; */
    display: flex;
    flex-direction: column;
 
 }
 
-
-#outPutBox{
-   background-color: violet;
-}
 .temp{
    display: flex;
 }
 
-
+.reset button{
+   width: 100px;
+   margin-top: 10px;
+}
 
 @media (max-width: 350px){
    h1{
