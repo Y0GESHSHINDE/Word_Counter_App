@@ -15,4 +15,5 @@ function numbersCount(text){
    }
 
    document.getElementById("Number").innerHTML= count;
+   // console.log(count);
 }
