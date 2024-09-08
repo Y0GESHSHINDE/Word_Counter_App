@@ -37,7 +37,8 @@ body{
 
 .outPut{
    margin-top: 10px;
-   /* background-color: tomato; */
+   background-color: steelblue;
+   border-radius: 20px;
    display: flex;
    flex-direction: column;
 
@@ -51,7 +52,6 @@ body{
    width: 100px;
    margin-top: 10px;
 }
-
 @media (max-width: 350px){
    h1{
       font-weight: 50px;
