@@ -26,7 +26,7 @@ With a clean interface and no extra features, this tool provides quick, straight
 
 1. Clone the repository: 
    ```bash
-   
+   git clone https://github.com/Y0GESHSHINDE/Word_Counter_App.git
    ```
 
 2. Open the `index.html` file in your browser.
